@@ -1,0 +1,12 @@
+# Ignore les fichiers système spécifiques à l'OS
+.DS_Store
+Thumbs.db
+
+# Ne pas versionner les fichiers temporaires
+*.log
+*.zip
+*.tar.gz
+
+# Ne pas versionner les fichiers liés à l'environnement local
+.env
+node_modules/
